@@ -49,10 +49,7 @@ class Tree {
 
     // 1b numberOfLeaves
     //------------------------------------------------------------------
-    int numberOfLeaves() {
-
-        return numberOfLeaves(root);
-    }
+    int numberOfLeaves() { return numberOfLeaves(root); }
 
     int numberOfLeaves(Node p) {
         if (p == null) return 0;
