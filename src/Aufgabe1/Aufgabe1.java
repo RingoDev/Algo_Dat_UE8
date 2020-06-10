@@ -50,7 +50,7 @@ class Tree {
 		if(p.left != null)printTree(p.left, level + 1);
     }
 
-    class Node {
+    static class Node {
         int val;
         Node left;
         Node right;
@@ -59,8 +59,6 @@ class Tree {
             this.val = val;
         }
     }
-
-
 }
 
 
@@ -74,11 +72,14 @@ class Aufgabe1 {
 
         Tree t = new Tree();
 
+
         t.insert(8);
         t.printTree();
 
+
         t.insert(4);
         t.printTree();
+
 
         t.insert(12);
         t.printTree();
@@ -98,26 +99,34 @@ class Aufgabe1 {
         t.insert(1);
         t.printTree();
 
+
         t.insert(3);
         t.printTree();
+
 
         t.insert(5);
         t.printTree();
 
+
         t.insert(7);
         t.printTree();
+
 
         t.insert(9);
         t.printTree();
 
+
         t.insert(11);
         t.printTree();
+
 
         t.insert(13);
         t.printTree();
 
+
         t.insert(15);
         t.printTree();
+
 
     }
 

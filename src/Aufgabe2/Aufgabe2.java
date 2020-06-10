@@ -68,7 +68,7 @@ class Tree {
         return p.right == null && p.left == null ? 0 : numberOfInnerNodes(p.right) + numberOfInnerNodes(p.left) + 1;
     }
 
-    class Node {
+    static class Node {
         int val;
         Node left;
         Node right;

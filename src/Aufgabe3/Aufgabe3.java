@@ -136,9 +136,5 @@ class Aufgabe3 {
         System.out.println("nextHigherValue von 19: " + t.nextHigherValue(19));
         System.out.println("nextHigherValue von 28: " + t.nextHigherValue(28));
         System.out.println("nextHigherValue von 30: " + t.nextHigherValue(30));
-
-
     }
-
-
 }
